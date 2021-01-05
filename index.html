@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <section class="top__section">
-        <div class="hf__width top__left">
+    <section id="top__banner" class="top__section">
+        <div class="hf__width">
             <h1>Welcome To</h1>
             <h2><span class="orange__highlight">KH</span> Portfolio Web-Site</h2>
             <h4>Professional Web Design And Developer</h4>
@@ -28,27 +28,32 @@
             <a href="#" class="fa fa-skype"></a>
            </div>
         </div>
-        <div class="hf__width top__right">
+        <div class="hf__width">
             <img src="img/bg-img.png" alt="bg-img">
         </div>
     </section>
         <section class="nav__bar">
             <div class="hf__width">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#top__banner">Home</a></li>
+                    <li><a href="#about__section">About</a></li>
+                    <li><a href="#portfolio__section">Portfolio</a></li>
+                    <li><a href="#contact__section">Contact</a></li>
                 </ul>
             </div>
+            <div class="hf-width contact__link">
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-dropbox"></a>
+                <a href="#" class="fa fa-envelope"></a>
+            </div>
         </section>
-    <section class="dream__area">
+    <section id="about__section" class="dream__area">
             
             <div class="hf__width">
                 <img src="img/image 11 (1).png" alt="drem-img">
             </div>
             <div class="hf__width">
-                <h1>My Dreams</h1>
+                <h1>My <span class="orange__highlight">Dreams</span></h1>
                 <h3>Become A World Top Web Developer</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi maxime est, quos alias, molestias eligendi facere id beatae incidunt vel officia labore in velit similique minima aut! Consequatur illum sit numquam quae natus odit voluptatibus necessitatibus labore ea quibusdam exercitationem sequi, illo omnis ratione consectetur minima minus laboriosam libero explicabo in rem. Deserunt quam hic dolore nesciunt suscipit vero inventore quae perspiciatis iure voluptatibus nihil, earum quo consectetur molestias repudiandae esse provident alias dolorum. Aspernatur quisquam quasi, exercitationem a tempora dolor neque error accusamus odio nihil omnis quam possimus dolorum libero dolore ex inventore et culpa similique natus sit magnam.</p>
                 <a target="_blank" class='hire__btn' href="https://www.linkedin.com/in/kawcher-habib-65245018b/">DOWNLODE RESUME</a>
@@ -56,8 +61,8 @@
             </div>
     </section>
   
-    <section class="experianc__area">
-        <h1>Experiancs</h1>
+    <section id="portfolio__section" class="experianc__area">
+        <h1 class="orange__highlight">Experiancs</h1>
         <div id='full__stack' class="hf__width single__experianc">
             <h2>Full Stack We Developer</h2>
             <h4 class="orange__highlight">2022 | Pro Web Developer</h4>
@@ -70,6 +75,19 @@
 
         </div>
         
+    </section>
+    <section id="contact__section" class="contact__section">
+        <h3>Contact <span class="orange__highlight">Me</span></h3>
+        <div class="contact__area">
+
+            <input type="text" name="" placeholder="Enter Name">
+            <br>
+            <input type="gmail" name='' placeholder="Enter Gmail">
+            <br>
+            <textarea name="" id="" rows="10px" placeholder="Your Message"></textarea>
+            <br>
+            <input type="button" value="Submit">
+        </div>
     </section>
     <footer>
         <p>Copyright © 2021 kawcher-habib.com</p>
