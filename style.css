@@ -92,14 +92,28 @@ margin-top: 50px;
     margin-top: 10px;
 }
 .dream__area{
-    margin: 3px 0;
+    margin: 3px 0 0 0;
     padding: 7px;
+    text-align: center;
+    
 }
-
+.dream__area h1,h3,p,a{
+    text-align: left;
+}
+.dream__area img{
+   
+width: 80%;
+   
+height:480px;
+   
+border-radius: 7px;
+   
+box-shadow: 4px 2px 8px 0px grey;
+}
 .experianc__area,
 .contact__section{
-    margin-top: 3px;
-    padding: 5px;
+    padding: 25px;
+    
 }
 .single__experianc{
     box-shadow: 10px 20px 40px gray;
@@ -120,19 +134,32 @@ margin-top: 50px;
   text-align: center;
 }
 .contact__area{
-    width: 350px;
-    height: 150px;
+    width: 370px;
+    height: 358px;
     margin: 0 auto;
-    background: #111111;
+   transition: 0.5s;
     text-align: center;
 }
-.contact__area input,
-textarea{
-    width: 100%;
+.contact__area:hover{
+    box-shadow: 10px 20px 40px gray;
+    border-radius: 7px;
+}
+.contact__area input{
+    width: 340px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
     border-radius: 5px;
     border: none;
+    background:#333030;
+    
+}
+textarea{
+    width: 340px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background:#333030;
 }
 .contact__area input[type=button]{
     width: 20%;
